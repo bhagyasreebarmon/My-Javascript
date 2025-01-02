@@ -76,6 +76,22 @@ ab++; /** ek ek kore number barte thakbe. eti muloto loop e use hoy */
 ab--; /** ek ek kore number barte thakbe. eti muloto loop e use hoy */
 
 
+
+
+//string to number convert
+let am = "20";
+let an = 20;
+am = +am;
+let folafol = am+an;
+console.log(folafol);
+
+// number to string convert
+let u=40;
+let w=22;
+u=''+u;
+let uw = u + w;
+console.log(uw);
+//another way string to number convert parsefloat / parse int
 // parseInt, parseFloat, toFixed এইগুলা কি করে? 
 var number = "100"; /** "100" eti ekti string eke number e rupantor korar jonno parseInt use korte hoytahole string ti number e rupantor hoye jabe note: string must be kono na kono number hote hobe taholei parseInt use kore number e convert hobe. string er vitor kono adress ba karo nam dewa thakle segulo number e convert hobena kokhonoi */
 var changeInt = parseInt(number);
